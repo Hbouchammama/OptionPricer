@@ -4,7 +4,7 @@ from datetime import datetime
 
 class MarketData:
      def __init__(self, data: dict):
-        # Pas besoin de charger le JSON ici, c'est déjà un dict
+     
         try:
             self.option_name = data['option_name']
             self.spot = data['spot']
