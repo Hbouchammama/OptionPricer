@@ -1,0 +1,54 @@
+[
+  {
+    "option_name": "Vanilla_Call_EUR",
+    "spot": 100,
+    "strike": 100,
+    "volatility": 0.2,
+    "rate": 0.05,
+    "option_type": "call",
+    "subtype": "vanilla",
+    "maturity_date": "2026-10-15",
+    "currency": "EUR"
+  },
+  {
+    "option_name": "Barrier_Put_USD",
+    "spot": 100,
+    "strike": 100,
+    "volatility": 0.25,
+    "rate": 0.03,
+    "option_type": "put",
+    "subtype": "barrier",
+    "maturity_date": "2026-10-15",
+    "barrier_type": "down-and-out",
+    "barrier_level": 95,
+    "rebate": 2.0,
+    "currency": "USD"
+  },
+  {
+    "option_name": "Barrier_Call_EUR",
+    "spot": 150,
+    "strike": 150,
+    "volatility": 0.25,
+    "rate": 0.02,
+    "option_type": "call",
+    "subtype": "barrier",
+    "maturity_date": "2026-10-15",
+    "barrier_type": "up-and-out",
+    "barrier_level": 105,
+    "rebate": 1.0,
+    "currency": "EUR"
+  },
+  {
+    "option_name": "Vanilla_Put_USD",
+    "spot": 200,
+    "strike": 200,
+    "volatility": 0.3,
+    "rate": 0.05,
+    "option_type": "put",
+    "subtype": "vanilla",
+    "maturity_date": "2026-10-15",
+    "currency": "USD"
+  }
+
+
+]

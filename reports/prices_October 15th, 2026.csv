@@ -1,0 +1,4 @@
+Option Name,Option Type,Subtype,Maturity Date,Pricing Date,Price,Currency
+Vanilla_Call_EUR,call,vanilla,"October 15th, 2026","April 22nd, 2025",13.342474740696039,EUR
+Barrier_Put_USD,put,barrier,"October 15th, 2026","April 22nd, 2025",1.7276135635095895,USD
+Vanilla_Put_USD,put,vanilla,"October 15th, 2026","April 22nd, 2025",21.36904441938282,USD
